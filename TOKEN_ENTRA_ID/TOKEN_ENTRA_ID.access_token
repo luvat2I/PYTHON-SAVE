@@ -1,0 +1,49 @@
+{
+  "acct": 0,
+  "acr": "1",
+  "aio": "AXQAi/8aAAAAVfBEtRK8RFmukbOULo5RAodo3c/bwH1S/CB6Lt2KFcKkbZWv87fqBpXu4pPVCn5Tv478PIC1YUcCWHkzpgjJTnXvXUqFV4gIif1mfSuvZ/7gPGJMWI2o1/2NoEJyKVWNZrryG8RaYTv/9YtTVBVtaQ==",
+  "amr": [
+    "pwd"
+  ],
+  "app_displayname": "Scrutation Keycloak YoudocT2I Service Test",
+  "appid": "b9f6bea1-2027-44eb-ba9d-57e1cc606302",
+  "appidacr": "1",
+  "aud": "00000003-0000-0000-c000-000000000000",
+  "exp": 1766079867,
+  "family_name": "VALOIS",
+  "given_name": "Ludovic",
+  "iat": 1766075808,
+  "idtyp": "user",
+  "ipaddr": "195.7.97.50",
+  "iss": "https://sts.windows.net/286e8b22-7f8f-4469-b84d-f331ceefba66/",
+  "name": "VALOIS Ludovic",
+  "nbf": 1766075808,
+  "oid": "e4aaf0a0-a4f9-4e6a-b41a-17ab73a5dd42",
+  "onprem_sid": "S-1-5-21-3253811577-57387938-2980040039-1217",
+  "platf": "14",
+  "puid": "100320021FB99977",
+  "rh": "1.AXkAIotuKI9_aUS4TfMxzu-6ZgMAAAAAAAAAwAAAAAAAAAAMAbd5AA.",
+  "scp": "email profile User.Read openid",
+  "sid": "00b9e209-f3be-caf2-af6f-f217708facd2",
+  "sub": "9z5DBuF7himhIBd_z3D57Fa4Pbj0I96OoJbZxa5xyo0",
+  "tenant_region_scope": "EU",
+  "tid": "286e8b22-7f8f-4469-b84d-f331ceefba66",
+  "unique_name": "ludovic.valois@lainx.ai",
+  "upn": "ludovic.valois@lainx.ai",
+  "uti": "Q9_oTNrl0kGuCVgzkp1LAA",
+  "ver": "1.0",
+  "wids": [
+    "b79fbf4d-3ef9-4689-8143-76b194e85509"
+  ],
+  "xms_acd": 1722603239,
+  "xms_act_fct": "3 9",
+  "xms_ftd": "NQk7UwwI7Whdj0xatg1N7Ckf5hgYeowmYckzSaSvSpgBZnJhbmNlYy1kc21z",
+  "xms_idrel": "1 30",
+  "xms_st": {
+    "sub": "x73_wKodBdz-k9zZHBJ4pQhkR8-a3HN6lcBZ0a8YIR0"
+  },
+  "xms_sub_fct": "3 12",
+  "xms_tcdt": 1659603905,
+  "xms_tdbr": "EU",
+  "xms_tnt_fct": "2 3"
+}

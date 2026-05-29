@@ -1,0 +1,1 @@
+pyinstaller TOKEN_ENTRA_ID.spec
