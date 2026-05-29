@@ -1,0 +1,29 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/PYTHON/MHTML2/TEST/TEMP/basic.html
+Subject: Test Page
+Date: Fri, 4 Jul 2025 17:26:55 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--shyAcgbaz9z85OHZyE0UMHTUQ5PRB7zgdozFUH1c3C----"
+
+
+------MultipartBoundary--shyAcgbaz9z85OHZyE0UMHTUQ5PRB7zgdozFUH1c3C----
+Content-Type: text/html
+Content-ID: <frame-03DBD0C8559D4E866175F688D9D24833@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/PYTHON/MHTML2/TEST/TEMP/basic.html
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3Dwindows-1252">
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <img src=3D"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/S=
+hield_of_Imperial_College_London.svg/langfr-250px-Shield_of_Imperial_Colleg=
+e_London.svg.png" alt=3D"Test Image">
+
+
+</body></html>
+------MultipartBoundary--shyAcgbaz9z85OHZyE0UMHTUQ5PRB7zgdozFUH1c3C------
