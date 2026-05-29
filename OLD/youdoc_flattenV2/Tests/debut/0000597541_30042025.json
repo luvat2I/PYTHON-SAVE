@@ -1,0 +1,54 @@
+{
+	"documentToProcess": [
+		{
+			"operation": "ADD",
+			"documentSummary": {
+				"description": "AVIS D'ECHEANCE POUR LA PERIODE DU 01/04/2025 AU 30/04/2025",
+				"departmentId": "D01",
+				"organizationId": "01",
+				"kindId": "FONAVE",
+				"pacId": "XEPAC_GESTIONLOCATIVE",
+				"referencingStatus": "C",
+				"databaseId": "BD301",
+				"isControlledVersion": false
+			},
+			"folderEntryToProcess": [
+				{
+					"operation": "ADD",
+					"folderEntry": {
+						"folderId": {
+							"pacId": "XEPAC_GESTIONLOCATIVE",
+							"folderTypeId": "32",
+							"databaseId": "BD301",
+							"folderBusinessId": "FON00000000006"
+						},
+						"ignoreCheckFolderExistence": false
+					}
+				}
+			],
+			"metaDataToProcess": [
+				{
+					"_comment": "N° client (CA) 11",
+					"operation": "ADD",
+					"type": "keyword",
+					"typeId": "IDF32",
+					"value": "00000000006"
+				},
+				{
+					"_comment": "Date métier",
+					"operation": "ADD",
+					"type": "keyword",
+					"typeId": "DTGEN",
+					"value": "20250430"
+				},
+				{
+					"_comment": "Archivage Physique / Optionnelle / 40 / ",
+					"operation": "ADD",
+					"type": "keyword",
+					"typeId": "ARPHY",
+					"value": "AE00000000006_30042025.pdf"
+				}
+			]
+		}
+	]
+}

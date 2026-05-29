@@ -1,0 +1,1 @@
+log_directory=D:\PYTHON\youdoc_flattenV2\Tests\logs
