@@ -1,0 +1,1 @@
+pyinstaller YouDoc_flatten_valid_ini.spec

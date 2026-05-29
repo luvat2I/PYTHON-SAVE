@@ -1,0 +1,89 @@
+import winreg as reg
+
+def create_event_log_registry():
+    # Chemin de la clé de registre
+    key_path = r"SYSTEM\CurrentControlSet\Services\EventLog\Application\TEST"
+
+    try:
+        # Tenter d'ouvrir la clé de registre
+        key = reg.OpenKey(reg.HKEY_LOCAL_MACHINE, key_path, 0, reg.KEY_READ)
+        print("La clé de registre existe déjà.")
+        reg.CloseKey(key)
+    except FileNotFoundError:
+        # Si la clé n'existe pas, la créer
+        try:
+            key = reg.CreateKey(reg.HKEY_LOCAL_MACHINE, key_path)
+
+            # Ajouter la valeur EventMessageFile
+            reg.SetValueEx(key, "EventMessageFile", 0, reg.REG_SZ, r"C:\chemin\vers\votre\executable.exe")  # Remplacez par le chemin correct
+
+            # Ajouter la valeur TypesSupported
+            reg.SetValueEx(key, "TypesSupported", 0, reg.REG_DWORD, 7)
+
+            print("Clé de registre créée avec succès.")
+        except Exception as e:
+            print(f"Erreur lors de la création de la clé de registre : {e}")
+        finally:
+            # Fermer la clé de registre
+            reg.CloseKey(key)
+
+if __name__ == "__main__":
+    create_event_log_registry()
+
+
+Ouvrir l'éditeur de registre :
+Appuyez sur Win + R, tapez regedit, puis appuyez sur Entrée.
+Naviguer vers la clé des événements :
+Allez à HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Application.
+Créer une nouvelle clé pour votre service :
+Cliquez avec le bouton droit sur Application, sélectionnez Nouveau > Clé, et nommez-la TEST.
+Ajouter les valeurs nécessaires :
+Dans la clé TEST, ajoutez une valeur de chaîne (String Value) nommée EventMessageFile qui pointe vers le fichier .dll ou .exe contenant les messages d'événements. Si vous n'avez pas de fichier de message, vous pouvez utiliser le chemin de votre exécutable.
+Ajoutez également une valeur DWORD nommée TypesSupported et définissez-la sur 7 (ce qui signifie que le service peut enregistrer des événements d'information, d'avertissement et d'erreur).
+
+import win32serviceutil
+import winreg as reg
+
+def service_exists(service_name):
+    """Vérifie si un service existe."""
+    try:
+        win32serviceutil.QueryServiceStatus(service_name)
+        return True
+    except Exception:
+        return False
+
+def create_event_log_registry():
+    """Crée une clé de registre pour le service TEST si elle n'existe pas."""
+    key_path = r"SYSTEM\CurrentControlSet\Services\EventLog\Application\TEST"
+
+    try:
+        # Tenter d'ouvrir la clé de registre
+        key = reg.OpenKey(reg.HKEY_LOCAL_MACHINE, key_path, 0, reg.KEY_READ)
+        print("La clé de registre existe déjà.")
+        reg.CloseKey(key)
+    except FileNotFoundError:
+        # Si la clé n'existe pas, la créer
+        try:
+            key = reg.CreateKey(reg.HKEY_LOCAL_MACHINE, key_path)
+
+            # Ajouter la valeur EventMessageFile
+            reg.SetValueEx(key, "EventMessageFile", 0, reg.REG_SZ, r"C:\chemin\vers\votre\executable.exe")  # Remplacez par le chemin correct
+
+            # Ajouter la valeur TypesSupported
+            reg.SetValueEx(key, "TypesSupported", 0, reg.REG_DWORD, 7)
+
+            print("Clé de registre créée avec succès.")
+        except Exception as e:
+            print(f"Erreur lors de la création de la clé de registre : {e}")
+        finally:
+            # Fermer la clé de registre
+            reg.CloseKey(key)
+
+if __name__ == "__main__":
+    service_name = "TEST"
+    
+    if service_exists(service_name):
+        print(f"Le service '{service_name}' existe.")
+    else:
+        print(f"Le service '{service_name}' n'existe pas. Création de la clé de registre.")
+        create_event_log_registry()
