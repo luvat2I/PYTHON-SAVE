@@ -1,0 +1,25 @@
+Files;Not a .HTM file: Files
+test.txt;Not a .HTM file: test.txt
+Infile;Not a .HTM file: Infile
+test.txt;Not a .HTM file: test.txt
+test.txt;Not a .HTM file: test.txt
+--Files;Not a .HTM file: --Files
+--files;Not a .HTM file: --files
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple1.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple1.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple1.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple2.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple2.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple2.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple3.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple3.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple3.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple4.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple4.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple4.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple5.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple5.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple5.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple8.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple8.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple8.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple6.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple6.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple6.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple10.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple10.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple10.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple7.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple7.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple7.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple13.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple13.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple13.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple12.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple12.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple12.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple14.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple14.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple14.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple11.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple11.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple11.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple15.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple15.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple15.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple17.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple17.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple17.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple18.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple18.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple18.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple16.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple16.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple16.PDF
+D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple20.HTM;Output file exists. Skipping D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple20.HTM due to D:\PYTHON\YouDoc_EML2PDF\TEST\SOURCES\MailSimple20.PDF
