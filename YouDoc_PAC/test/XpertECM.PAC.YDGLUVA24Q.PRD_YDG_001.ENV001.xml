@@ -1,0 +1,1535 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XEMiiParameterData>
+  <Environment Name="ENV001" Site="T2I" Description="SAGE" Source="XpertECM" Mode="PAC" Server="YDGLUVA24Q" Mapping="" Service="YDGLUVA24Q">
+    <Element Name="Version" Value="3.0" />
+    <Element Name="Xpert.ECM" Value="PRD_YDG_001" />
+    <Element Name="Xpert.Security" Value="PRD_YDG_001" />
+    <Element Name="Xpert.Security.XEMii" Value="1001" />
+    <Element Name="Xpert.Security.Disable" Value="True" />
+    <Element Name="DataBase" Value="SQL" />
+    <Element Name="DataBase.User" Value="sa_PRD" />
+    <Element Name="DataBase.Password" Value="passwordT2I" />
+    <Element Name="RestServiceECMUrl" Value="https://Ydgluva24q:8443" />
+    <Element Name="RestServiceECMUser" Value="prd-001-svc" />
+    <Element Name="RestServiceECMpwd" Value="prd001svcT2I" />
+    <Element Name="RestServiceECMEnv" Value="001" />
+    <Element Name="Smtp.Server" Value="" />
+    <Element Name="Smtp.User" Value="" />
+    <Element Name="Smtp.Password" Value="" />
+    <Element Name="Smtp.Emetteur" Value="" />
+    <Element Name="Delivery.DateTime" Value="25/08/2025 11:22:49" />
+    <Editors>
+      <Editor nme="PDF" lbl="Adobe Acrobat" ext=".pdf" />
+      <Editor nme="WORD" lbl="Microsoft Word pour Windows" ext=".doc" />
+      <Editor nme="EXCEL" lbl="Microsoft Excel pour Windows" ext=".xls" />
+      <Editor nme="PPT" lbl="Microsoft PowerPoint pour Windows" ext=".ppt" />
+      <Editor nme="TXT" lbl="Texte" ext=".txt" />
+      <Editor nme="BMP" lbl="Bitmap" ext=".bmp" />
+      <Editor nme="JPG" lbl="JPEG" ext=".jpg;.jpeg;.png" />
+      <Editor nme="TIF" lbl="TIFF" ext=".tif;.tiff" />
+      <Editor nme="DXF" lbl="AutoCad" ext=".dxf" />
+      <Editor nme="DWG" lbl="AutoCad" ext=".dwg;.dxf" />
+      <Editor nme="HTML" lbl="HTML" ext=".htm;.html" />
+    </Editors>
+    <Departments>
+      <Department Name="D01" Description="FR" />
+      <Department Name="D02" Description="Departement 1" />
+      <Department Name="D03" Description="Departement 2" />
+    </Departments>
+    <Keywords>
+      <Keyword nme="SITFA" lbl="Site facturation" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SIHNU" lbl="Numéro de pièce" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPCOR" lbl="Client commande (N°)" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SOHNU" lbl="No commande" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPCNA" lbl="Client commande (nom)" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SALFC" lbl="Site vente" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPCIN" lbl="Client facturé (N°)" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPINA" lbl="Client facturé (Nom)" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="ORDDA" lbl="Date de commande" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="CUSOR" lbl="Réf commande client" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPCSA" lbl="Etat commande " nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="REPNU" lbl="Représentant (N°)" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="ACCDA" lbl="Date comptable" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="DTGEN" lbl="Date" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="STOFC" lbl="Site expédition" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SDHNU" lbl="No livraison" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="DLVAT" lbl="Montant livré TTC" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SHIDA" lbl="Date expédition" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="AMTAT" lbl="Montant TTC" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPRNU" lbl="Tiers" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPRNA" lbl="Raison sociale" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="DLRAT" lbl="Montant à livrer TTC" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="DLVDA" lbl="Date livraison" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="NUMPI" lbl="Numéro de pièce" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="INVNU" lbl="Numéro facture" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PIVTY" lbl="Type facture fourn." nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPRDA" lbl="Date origine" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="OBJPI" lbl="Objet de la facture" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="OBJPI.XML" />
+      <Keyword nme="SOCTY" lbl="Type de commande (ouverte)" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="SOCTY.XML" />
+      <Keyword nme="BPDNU" lbl="Client livré (N°)" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPDNA" lbl="Client livré (Nom)" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="APRCD" lbl="Code article" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="APRSI" lbl="Site approvisionnement" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="STRST" lbl="Code ordre de sous-traitance" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="STRDS" lbl="Désignation" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="STRCO" lbl="Site commande" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLCD" lbl="Code tarif" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLFT" lbl="Fiche tarif" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLDD" lbl="Date début validité" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLDF" lbl="Date fin validité" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLDC" lbl="Description" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLST" lbl="Statut tarif" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLPR" lbl="Prix" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLQT" lbl="Quantité" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="APRGS" lbl="Gestionnaire" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="APRDD" lbl="Date de début" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="APRDF" lbl="Date de fin" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PSHNU" lbl="No demande" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PSHSD" lbl="Site demande" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PSHDM" lbl="Demandeur" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PSHNA" lbl="No Affaire" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PSHDT" lbl="Date de demande" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PQHAO" lbl="No Appel Offre" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PQHSA" lbl="Site appel offre" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PQHDT" lbl="Date appel" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PQHDL" lbl="Date limite" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PQHDR" lbl="Date réponse" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PQHUN" lbl="Unité" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SCONU" lbl="Ordre sous-traitance" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SCODS" lbl="Désignation" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SCOPO" lbl="Priorité" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SCOSR" lbl="Site réception" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPSNU" lbl="Code Fournisseur" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPSLB" lbl="Libellé Fournisseur" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPSIN" lbl="Tiers facturant" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPSLI" lbl="Libellé tiers facturant" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BPRPA" lbl="Tiers payé" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SHHNU" lbl="N° expédition" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SHHST" lbl="Statut expédition" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PTHNU" lbl="N° réception" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PTHDT" lbl="Date réception" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLGF" lbl="Date fin validité (TXT)" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PPLGD" lbl="Date début validité (TXT)" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PNHNU" lbl="No retour achat" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PNHFC" lbl="Site retour" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PNHTY" lbl="Type retour" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PNHDT" lbl="Date retour" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BUYNU" lbl="Code acheteur" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="BUYLB" lbl="Libellé acheteur" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PRHNU" lbl="Bon préparation" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PRHSI" lbl="Site stockage" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="PRHEP" lbl="Etat préparation" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SRHNU" lbl="No retour vente" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SQHNU" lbl="No devis" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SQHRF" lbl="Référence devis" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SQHTY" lbl="Type devis" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="POCNU" lbl="No contrat" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="SOHST" lbl="Type de commande" nat="10" cdt="" bet="0" msk="" ass_typ="3" ass_src="SOHST.XML" />
+      <Keyword nme="DODTR" lbl="Date de rédaction" nat="07" cdt="" bet="1" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="DORED" lbl="Rédacteur" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="DOVER" lbl="Version du logiciel" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="DOPRE" lbl="Editeur du produit" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="DOPRE.XML" />
+      <Keyword nme="DOPDT" lbl="Produit" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="DOCHP" lbl="Champ d'application Youdoc" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="DOCHP.XML" />
+      <Keyword nme="DOCON" lbl="Connecteur" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="DOCON.XML" />
+      <Keyword nme="DOSOU" lbl="Source" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="DOSOU.XML" />
+      <Keyword nme="DOTYP" lbl="Type d'outil" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="DOTYP.XML" />
+      <Keyword nme="DODEX" lbl="Document d'exploitation" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="DODEX.XML" />
+      <Keyword nme="DOENV" lbl="Environnement" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="DOENV.XML" />
+      <Keyword nme="DOPUB" lbl="Publication Client" nat="02" cdt="" bet="0" msk="" ass_typ="3" ass_src="DOPUB.XML" />
+      <Keyword nme="DESFD" lbl="Description Dossier" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+      <Keyword nme="K0107" lbl="testdate" nat="02" cdt="" bet="0" msk="" ass_typ="0" ass_src="" />
+    </Keywords>
+    <Base Name="PAC_ACHAT" Description="PAC_ACHAT" ver="54112">
+      <Instance Name="BD001" Description="T2I" Mapping="" Id="01">
+        <Department Name="D01" Description="FR" Mapping="" Id="01" />
+        <Department Name="D02" Description="Departement 1" Mapping="" Id="02" />
+        <Department Name="D03" Description="Departement 2" Mapping="" Id="03" />
+      </Instance>
+      <L_FLD>
+        <E_FLD nme="01" lbl="Appel d'offre" pre="PQH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="PQH-Appel d'offre" />
+          <F_IDT nme="PQHAO" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="011" Mapping="KEY0" />
+          <F_DS1 nme="PQHSA" len="24" mod="1" mnd="0" maj="1" pre="012" view="1" Mapping="" />
+          <F_DS2 nme="BPSNU" len="24" mod="1" mnd="0" maj="1" pre="013" view="1" Mapping="" />
+          <F_DS3 nme="BPSLB" len="24" mod="1" mnd="0" maj="1" pre="014" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="GESPPD" lbl="Réponses" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPPD01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PQHDT" add="2" lbl="Date appel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDL" add="2" lbl="Date limite" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDR" add="2" lbl="Date réponse" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHAO" add="2" lbl="No Appel Offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PQHSA" add="2" lbl="Site appel offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PQHUN" add="2" lbl="Unité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="QTFPQH" lbl="Questionnaires techniques et fonctionnels" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="QTFPQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PQHDT" add="2" lbl="Date appel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDL" add="2" lbl="Date limite" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDR" add="2" lbl="Date réponse" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHAO" add="2" lbl="No Appel Offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PQHSA" add="2" lbl="Site appel offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PQHUN" add="2" lbl="Unité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="PRIPQH" lbl="Pièces prix" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="PRIPQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PQHDT" add="2" lbl="Date appel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDL" add="2" lbl="Date limite" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDR" add="2" lbl="Date réponse" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHAO" add="2" lbl="No Appel Offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PQHSA" add="2" lbl="Site appel offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PQHUN" add="2" lbl="Unité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="PICPQH" lbl="Pièces complémentaires" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="PICPQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PQHDT" add="2" lbl="Date appel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDL" add="2" lbl="Date limite" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDR" add="2" lbl="Date réponse" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHAO" add="2" lbl="No Appel Offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PQHSA" add="2" lbl="Site appel offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PQHUN" add="2" lbl="Unité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPQH" lbl="Demandes" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PQHDT" add="2" lbl="Date appel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDL" add="2" lbl="Date limite" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDR" add="2" lbl="Date réponse" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHAO" add="2" lbl="No Appel Offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PQHSA" add="2" lbl="Site appel offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PQHUN" add="2" lbl="Unité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="CLPPQH" lbl="Clauses particulières" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="CLPPQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PQHDT" add="2" lbl="Date appel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDL" add="2" lbl="Date limite" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDR" add="2" lbl="Date réponse" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHAO" add="2" lbl="No Appel Offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PQHSA" add="2" lbl="Site appel offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PQHUN" add="2" lbl="Unité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="AACPQH" lbl="Avis d'appel à la concurrence" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="AACPQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PQHDT" add="2" lbl="Date appel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDL" add="2" lbl="Date limite" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDR" add="2" lbl="Date réponse" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHAO" add="2" lbl="No Appel Offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PQHSA" add="2" lbl="Site appel offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PQHUN" add="2" lbl="Unité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOCPQH" lbl="Autre document appel d'offre" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCPQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PQHDT" add="2" lbl="Date appel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDL" add="2" lbl="Date limite" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDR" add="2" lbl="Date réponse" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHAO" add="2" lbl="No Appel Offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PQHSA" add="2" lbl="Site appel offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PQHUN" add="2" lbl="Unité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="ACEPQH" lbl="Actes engagements" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="ACEPQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PQHDT" add="2" lbl="Date appel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDL" add="2" lbl="Date limite" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHDR" add="2" lbl="Date réponse" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PQHAO" add="2" lbl="No Appel Offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PQHSA" add="2" lbl="Site appel offre" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PQHUN" add="2" lbl="Unité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="03" lbl="Commande" pre="POH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="POH-Commande" />
+          <F_IDT nme="SOHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="031" Mapping="KEY0" />
+          <F_DS1 nme="STRCO" len="24" mod="1" mnd="0" maj="1" pre="032" view="1" Mapping="" />
+          <F_DS2 nme="BPSNU" len="24" mod="1" mnd="0" maj="1" pre="033" view="1" Mapping="" />
+          <F_DS3 nme="BPSLB" len="24" mod="1" mnd="0" maj="1" pre="034" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="DOCPOH" lbl="Autre document  commande" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCPOH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STRCO" add="2" lbl="Site commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPOI" lbl="Plan acheteur" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPOI01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STRCO" add="2" lbl="Site commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPOD" lbl="Demande de livraison" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPOD01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STRCO" add="2" lbl="Site commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPOH" lbl="Commande" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPOH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STRCO" add="2" lbl="Site commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK>
+            <E_LNK nme="COMEX" lbl="Achat.Commande-Achat.Expédition" mnd="0" occ="0" ref="0" src="0" lnk="05" />
+            <E_LNK nme="COMFF" lbl="Achat.Commande-Achat.Facture" mnd="0" occ="0" ref="0" src="0" lnk="06" />
+            <E_LNK nme="COMRC" lbl="Achat.Commande-Achat.Réception" mnd="0" occ="0" ref="0" src="0" lnk="07" />
+          </L_LNK>
+        </E_FLD>
+        <E_FLD nme="04" lbl="Demandes d'achat" pre="PSH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="PSH-Demandes d'achat" />
+          <F_IDT nme="PSHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="041" Mapping="KEY0" />
+          <F_DS1 nme="PSHSD" len="24" mod="1" mnd="0" maj="1" pre="042" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="DOCPSH" lbl="Autre document demandes d'achat" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCPSH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PSHDT" add="2" lbl="Date de demande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNU" add="2" lbl="No demande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PSHSD" add="2" lbl="Site demande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPSH" lbl="Demandes d'achat" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPSH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PSHDT" add="2" lbl="Date de demande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHDM" add="2" lbl="Demandeur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNU" add="2" lbl="No demande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PSHSD" add="2" lbl="Site demande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="05" lbl="Expédition" pre="SHH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="SHH-Expédition" />
+          <F_DS1 nme="STOFC" len="24" mod="1" mnd="0" maj="1" pre="052" view="1" Mapping="STOFCY" />
+          <F_DS2 nme="BPSNU" len="24" mod="1" mnd="0" maj="1" pre="053" view="1" Mapping="" />
+          <F_DS3 nme="BPSLB" len="24" mod="1" mnd="0" maj="1" pre="054" view="1" Mapping="" />
+          <F_IDT nme="SHHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="051" Mapping="KEY0" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="DOCSHH" lbl="Autre document  expéditions" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCSHH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SHIDA" add="2" lbl="Date expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SHIDAT" />
+                <E_KWD nme="SHHNU" add="2" lbl="N° expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STOFC" add="2" lbl="Site expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="STOFCY" />
+                <E_KWD nme="SHHST" add="2" lbl="Statut expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESTRN" lbl="Transport" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESTRN01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SHIDA" add="2" lbl="Date expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SHIDAT" />
+                <E_KWD nme="SHHNU" add="2" lbl="N° expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STOFC" add="2" lbl="Site expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="STOFCY" />
+                <E_KWD nme="SHHST" add="2" lbl="Statut expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPPT" lbl="Pré-réception des expéditions" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPPT01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SHIDA" add="2" lbl="Date expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SHIDAT" />
+                <E_KWD nme="SHHNU" add="2" lbl="N° expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STOFC" add="2" lbl="Site expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="STOFCY" />
+                <E_KWD nme="SHHST" add="2" lbl="Statut expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESSHH" lbl="Expédition" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESSHH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SHIDA" add="2" lbl="Date expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SHIDAT" />
+                <E_KWD nme="SHHNU" add="2" lbl="N° expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STOFC" add="2" lbl="Site expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="STOFCY" />
+                <E_KWD nme="SHHST" add="2" lbl="Statut expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESCTR" lbl="Conteneur fret" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESCTR01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SHIDA" add="2" lbl="Date expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SHIDAT" />
+                <E_KWD nme="SHHNU" add="2" lbl="N° expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STOFC" add="2" lbl="Site expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="STOFCY" />
+                <E_KWD nme="SHHST" add="2" lbl="Statut expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="06" lbl="Facture fournisseur" pre="PIH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="PIH-Facture fournisseur" />
+          <F_IDT nme="NUMPI" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="061" Mapping="KEY0" />
+          <F_DS1 nme="SITFA" len="24" mod="1" mnd="0" maj="1" pre="062" view="1" Mapping="" />
+          <F_DS2 nme="OBJPI" len="24" mod="1" mnd="0" maj="1" pre="063" view="1" Mapping="" />
+          <F_DS3 nme="PIVTY" len="24" mod="1" mnd="0" maj="1" pre="A53" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="GESPIH" lbl="Facture fournisseur" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPIH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="NUMPI" add="2" lbl="Numéro de pièce" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="1" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="INVNU" add="2" lbl="Numéro facture" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="INVNUM" />
+                <E_KWD nme="BPRNA" add="2" lbl="Raison sociale" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRNAM" />
+                <E_KWD nme="BPRNU" add="2" lbl="Tiers" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPR" />
+                <E_KWD nme="SITFA" add="2" lbl="Site facturation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PIVTY" add="2" lbl="Type facture fourn." ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+                <E_KWD nme="ACCDA" add="2" lbl="Date comptable" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="ACCDAT" />
+                <E_KWD nme="BPRDA" add="2" lbl="Date origine" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRDAT" />
+                <E_KWD nme="OBJPI" add="2" lbl="Objet de la facture" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="CORPIH" lbl="Correspondance facture fournisseur" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="CORPIH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="NUMPI" add="2" lbl="Numéro de pièce" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="INVNU" add="2" lbl="Numéro facture" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="INVNUM" />
+                <E_KWD nme="BPRNA" add="2" lbl="Raison sociale" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRNAM" />
+                <E_KWD nme="BPRNU" add="2" lbl="Tiers" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPR" />
+                <E_KWD nme="SITFA" add="2" lbl="Site facturation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PIVTY" add="2" lbl="Type facture fourn." ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+                <E_KWD nme="ACCDA" add="2" lbl="Date comptable" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="ACCDAT" />
+                <E_KWD nme="BPRDA" add="2" lbl="Date origine" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRDAT" />
+                <E_KWD nme="OBJPI" add="2" lbl="Objet de la facture" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOCPIH" lbl="Autre document facture fournisseur" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCPIH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="NUMPI" add="2" lbl="Numéro de pièce" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="INVNU" add="2" lbl="Numéro facture" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="INVNUM" />
+                <E_KWD nme="BPRNA" add="2" lbl="Raison sociale" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRNAM" />
+                <E_KWD nme="BPRNU" add="2" lbl="Tiers" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPR" />
+                <E_KWD nme="SITFA" add="2" lbl="Site facturation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PIVTY" add="2" lbl="Type facture fourn." ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+                <E_KWD nme="ACCDA" add="2" lbl="Date comptable" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="ACCDAT" />
+                <E_KWD nme="BPRDA" add="2" lbl="Date origine" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRDAT" />
+                <E_KWD nme="OBJPI" add="2" lbl="Objet de la facture" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="07" lbl="Réception" pre="PTH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="PTH-Réception" />
+          <F_IDT nme="PTHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="071" Mapping="KEY0" />
+          <F_DS1 nme="SCOSR" len="24" mod="1" mnd="0" maj="1" pre="072" view="1" Mapping="" />
+          <F_DS2 nme="BPSNU" len="24" mod="1" mnd="0" maj="1" pre="073" view="1" Mapping="" />
+          <F_DS3 nme="BPSLB" len="24" mod="1" mnd="0" maj="1" pre="074" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="DOCPTH" lbl="Autre document  réception" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCPTH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="PTHDT" add="2" lbl="Date réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="SCOSR" add="2" lbl="Site réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPTH" lbl="Réception" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPTH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="PTHDT" add="2" lbl="Date réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="SCOSR" add="2" lbl="Site réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPTO" lbl="Pré-réception des commandes" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPTO01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="PTHDT" add="2" lbl="Date réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="SCOSR" add="2" lbl="Site réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK>
+            <E_LNK nme="RECFF" lbl="Achat.Réception-Achat.Facture" mnd="0" occ="0" ref="0" src="0" lnk="06" />
+            <E_LNK nme="RECRT" lbl="Achat.Réception-Achat.Retour" mnd="0" occ="0" ref="0" src="0" lnk="08" />
+          </L_LNK>
+        </E_FLD>
+        <E_FLD nme="08" lbl="Retour" pre="PNH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="PNH-Retour" />
+          <F_IDT nme="PNHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="081" Mapping="KEY0" />
+          <F_DS1 nme="PNHFC" len="24" mod="1" mnd="0" maj="1" pre="082" view="1" Mapping="" />
+          <F_DS2 nme="BPSNU" len="24" mod="1" mnd="0" maj="1" pre="083" view="1" Mapping="" />
+          <F_DS3 nme="BPSLB" len="24" mod="1" mnd="0" maj="1" pre="084" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="DOCPNH" lbl="Autre document  retour" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCPNH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BUYNU" add="2" lbl="Code acheteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="PNHDT" add="2" lbl="Date retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BUYLB" add="2" lbl="Libellé acheteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PNHNU" add="2" lbl="No retour achat" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PNHFC" add="2" lbl="Site retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPNH" lbl="Retour d'achat" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPNH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BUYNU" add="2" lbl="Code acheteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="PNHDT" add="2" lbl="Date retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BUYLB" add="2" lbl="Libellé acheteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PNHNU" add="2" lbl="No retour achat" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PNHFC" add="2" lbl="Site retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESBOL" lbl="Bon de transport" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESBOL01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BUYNU" add="2" lbl="Code acheteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="PNHDT" add="2" lbl="Date retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BUYLB" add="2" lbl="Libellé acheteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PNHNU" add="2" lbl="No retour achat" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PNHFC" add="2" lbl="Site retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="09" lbl="Sous-traitance " pre="SCO" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="SCO-Sous-traitance " />
+          <F_IDT nme="SCONU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="091" Mapping="KEY0" />
+          <F_DS1 nme="SCODS" len="24" mod="1" mnd="0" maj="1" pre="092" view="1" Mapping="" />
+          <F_DS2 nme="STRCO" len="24" mod="1" mnd="0" maj="1" pre="093" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="DOCSCO" lbl="Autre document  sous-traitance" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCSCO01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="APRCD" add="2" lbl="Code article" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SCONU" add="2" lbl="Ordre sous-traitance" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="SCOPO" add="2" lbl="Priorité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SCOSR" add="2" lbl="Site réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESSCO" lbl="Ordre de sous-traitance" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESSCO01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="APRCD" add="2" lbl="Code article" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PSHNA" add="2" lbl="No Affaire" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SCOPO" add="2" lbl="Priorité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SCOSR" add="2" lbl="Site réception" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SCONU" add="2" lbl="Ordre sous-traitance" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="10" lbl="Tarif" pre="PPL" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="PPL-Tarif" />
+          <F_IDT nme="PPLCD" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="101" Mapping="KEY0" />
+          <F_DS1 nme="PPLFT" len="24" mod="1" mnd="0" maj="1" pre="102" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="DOCPPL" lbl="Autre document tarif" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCPPL01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PPLCD" add="2" lbl="Code tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PPLDD" add="2" lbl="Date début validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDF" add="2" lbl="Date fin validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDC" add="2" lbl="Description" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLFT" add="2" lbl="Fiche tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PPLPR" add="2" lbl="Prix" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLQT" add="2" lbl="Quantité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="COTPPL" lbl="Condition tarif" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="COTPPL01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PPLCD" add="2" lbl="Code tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PPLDD" add="2" lbl="Date début validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDF" add="2" lbl="Date fin validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDC" add="2" lbl="Description" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLFT" add="2" lbl="Fiche tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PPLPR" add="2" lbl="Prix" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLQT" add="2" lbl="Quantité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESPPL" lbl="Fiche tarif" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPPL01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PPLCD" add="2" lbl="Code tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PPLDD" add="2" lbl="Date début validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDF" add="2" lbl="Date fin validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLFT" add="2" lbl="Fiche tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PPLDC" add="2" lbl="Description" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLPR" add="2" lbl="Prix" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLQT" add="2" lbl="Quantité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="PPLCAT" lbl="Catalogue tarif" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="PPLCAT01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PPLCD" add="2" lbl="Code tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PPLDD" add="2" lbl="Date début validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDF" add="2" lbl="Date fin validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLFT" add="2" lbl="Fiche tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PPLDC" add="2" lbl="Description" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLPR" add="2" lbl="Prix" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLQT" add="2" lbl="Quantité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="11" lbl="Contrat" pre="POC" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="POC-Contrat" />
+          <F_IDT nme="POCNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="111" Mapping="KEY0" />
+          <F_DS1 nme="BPSNU" len="24" mod="1" mnd="0" maj="1" pre="112" view="1" Mapping="" />
+          <F_DS2 nme="BPSLB" len="24" mod="1" mnd="0" maj="1" pre="113" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="GESPOC" lbl="Contrat" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="GESPOC01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+                <E_KWD nme="STRCO" add="2" lbl="Site commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="POCNU" add="2" lbl="No contrat" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOCPOC" lbl="Autre document contrat fournisseur" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BD001" cdt="DOCPOC01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+                <E_KWD nme="STRCO" add="2" lbl="Site commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="POCNU" add="2" lbl="No contrat" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+      </L_FLD>
+    </Base>
+    <Base Name="PAC_VENTE" Description="PAC_VENTE" ver="54112">
+      <Instance Name="BDB01" Description="T2I" Mapping="" Id="01">
+        <Department Name="D01" Description="FR" Mapping="" Id="01" />
+        <Department Name="D02" Description="Departement 1" Mapping="" Id="02" />
+        <Department Name="D03" Description="Departement 2" Mapping="" Id="03" />
+      </Instance>
+      <L_FLD>
+        <E_FLD nme="V1" lbl="Facture client" pre="SIH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="SIH-Facture client" />
+          <F_IDT nme="SIHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="V11" Mapping="KEY0" />
+          <F_DS1 nme="SALFC" len="24" mod="1" mnd="0" maj="1" pre="V12" view="1" Mapping="SALFCY" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="GESSIH" lbl="Facture client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="1" Mapping="GESSIH" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSIH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="SIHNU" add="2" lbl="Numéro de pièce" ope="LIKE" len="40" mnd="1" occ="0" src="1" mod="2" maj="1" pub="0" idx="1" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="DTGEN" add="2" lbl="Date" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="SALFC" add="2" lbl="Site vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="SALFCY" />
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="1" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="1" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="AMTAT" add="2" lbl="Montant TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="AMTATI" />
+                <E_KWD nme="BPRNA" add="2" lbl="Raison sociale" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRNAM" />
+                <E_KWD nme="BPRNU" add="2" lbl="Tiers" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPR" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="CORSIH" lbl="Correspondance facture client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="CORSIH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="DTGEN" add="2" lbl="Date" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SIHNU" add="2" lbl="Numéro de pièce" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="SALFC" add="2" lbl="Site vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="SALFCY" />
+                <E_KWD nme="AMTAT" add="2" lbl="Montant TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="AMTATI" />
+                <E_KWD nme="BPRNA" add="2" lbl="Raison sociale" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRNAM" />
+                <E_KWD nme="BPRNU" add="2" lbl="Tiers" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPR" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOCSIH" lbl="Autre document facture client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="DOCSIH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="DTGEN" add="2" lbl="Date" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SIHNU" add="2" lbl="Numéro de pièce" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="SALFC" add="2" lbl="Site vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="SALFCY" />
+                <E_KWD nme="AMTAT" add="2" lbl="Montant TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="AMTATI" />
+                <E_KWD nme="BPRNA" add="2" lbl="Raison sociale" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRNAM" />
+                <E_KWD nme="BPRNU" add="2" lbl="Tiers" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPR" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="V2" lbl="Commande client" pre="SOH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="SOH-Commande client" />
+          <F_IDT nme="SOHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="V21" Mapping="KEY0" />
+          <F_DS1 nme="STRCO" len="24" mod="1" mnd="0" maj="1" pre="V22" view="1" Mapping="" />
+          <F_STA nme="SOHST" mod="1" mnd="0" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="GESSOQ" lbl="Demande de livraison" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSOQ01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="ORDDA" add="2" lbl="Date de commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="ORDDAT" />
+                <E_KWD nme="BPCSA" add="2" lbl="Etat commande " ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCSAT" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="CUSOR" add="2" lbl="Réf commande client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="CUSORDREF" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="SALFC" add="2" lbl="Site vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SALFCY" />
+                <E_KWD nme="DLRAT" add="2" lbl="Montant à livrer TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLRATI" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESSOH" lbl="Commande client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" Mapping="GESSOH" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSOH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="ORDDA" add="2" lbl="Date de commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="ORDDAT" />
+                <E_KWD nme="BPCSA" add="2" lbl="Etat commande " ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCSAT" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="1" occ="0" src="1" mod="2" maj="1" pub="0" idx="1" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="CUSOR" add="2" lbl="Réf commande client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="CUSORDREF" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="SALFC" add="2" lbl="Site vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SALFCY" />
+                <E_KWD nme="DLRAT" add="2" lbl="Montant à livrer TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLRATI" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="CORSOH" lbl="Correspondance commande client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="CORSOH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="ORDDA" add="2" lbl="Date de commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="ORDDAT" />
+                <E_KWD nme="BPCSA" add="2" lbl="Etat commande " ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCSAT" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="CUSOR" add="2" lbl="Réf commande client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="CUSORDREF" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="DLRAT" add="2" lbl="Montant à livrer TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLRATI" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOCSOH" lbl="Autre document commande client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="DOCSOH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="ORDDA" add="2" lbl="Date de commande" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="ORDDAT" />
+                <E_KWD nme="BPCSA" add="2" lbl="Etat commande " ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCSAT" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="1" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="CUSOR" add="2" lbl="Réf commande client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="CUSORDREF" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="DLRAT" add="2" lbl="Montant à livrer TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLRATI" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK>
+            <E_LNK nme="COMFA" lbl="Vente.Commande-Vente.Facture" mnd="0" occ="0" ref="0" src="0" lnk="V1" />
+            <E_LNK nme="COMLI" lbl="Vente.Commande-Vente.Livraison" mnd="0" occ="0" ref="0" src="0" lnk="V3" />
+          </L_LNK>
+        </E_FLD>
+        <E_FLD nme="V3" lbl="Livraison client" pre="SDH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="SDH-Livraison client" />
+          <F_IDT nme="SDHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="V31" Mapping="KEY0" />
+          <F_DS1 nme="STOFC" len="24" mod="1" mnd="0" maj="1" pre="V32" view="1" Mapping="STOFCY" />
+          <F_DS2 nme="BPDNU" len="24" mod="1" mnd="0" maj="1" pre="V33" view="1" Mapping="" />
+          <F_DS3 nme="BPDNA" len="24" mod="1" mnd="0" maj="1" pre="V34" view="1" Mapping="BPDNAM" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="GESSDH" lbl="Livraison client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSDH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="DTGEN" add="2" lbl="Date" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="STOFC" add="2" lbl="Site expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="STOFCY" />
+                <E_KWD nme="SDHNU" add="2" lbl="No livraison" ope="LIKE" len="40" mnd="1" occ="0" src="1" mod="2" maj="1" pub="0" idx="1" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="SHIDA" add="2" lbl="Date expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SHIDAT" />
+                <E_KWD nme="DLVDA" add="2" lbl="Date livraison" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLVDAT" />
+                <E_KWD nme="DLVAT" add="2" lbl="Montant livré TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLVATI" />
+                <E_KWD nme="BPDNU" add="2" lbl="Client livré (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPDNA" add="2" lbl="Client livré (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="BPDNAM" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="CORSDH" lbl="Correspondance livraison client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="CORSDH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="DTGEN" add="2" lbl="Date" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="SDHNU" add="2" lbl="No livraison" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STOFC" add="2" lbl="Site expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="STOFCY" />
+                <E_KWD nme="SHIDA" add="2" lbl="Date expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SHIDAT" />
+                <E_KWD nme="DLVDA" add="2" lbl="Date livraison" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLVDAT" />
+                <E_KWD nme="DLVAT" add="2" lbl="Montant livré TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLVATI" />
+                <E_KWD nme="BPDNU" add="2" lbl="Client livré (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPDNA" add="2" lbl="Client livré (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="BPDNAM" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOCSDH" lbl="Autre document livraison client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="DOCSDH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="BPINA" add="2" lbl="Client facturé (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPINAM" />
+                <E_KWD nme="BPCIN" add="2" lbl="Client facturé (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCINV" />
+                <E_KWD nme="DTGEN" add="2" lbl="Date" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="REPNU" add="2" lbl="Représentant (N°)" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="REP" />
+                <E_KWD nme="SDHNU" add="2" lbl="No livraison" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="STOFC" add="2" lbl="Site expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="STOFCY" />
+                <E_KWD nme="SHIDA" add="2" lbl="Date expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="SHIDAT" />
+                <E_KWD nme="DLVDA" add="2" lbl="Date livraison" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLVDAT" />
+                <E_KWD nme="DLVAT" add="2" lbl="Montant livré TTC" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLVATI" />
+                <E_KWD nme="BPDNU" add="2" lbl="Client livré (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="BPDNA" add="2" lbl="Client livré (Nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="BPDNAM" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK>
+            <E_LNK nme="VENRE" lbl="Vente.Livraison-Vente.Retour" mnd="0" occ="0" ref="0" src="0" lnk="V8" />
+          </L_LNK>
+        </E_FLD>
+        <E_FLD nme="V5" lbl="Devis" pre="SQH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="SQH-Devis" />
+          <F_IDT nme="SQHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="A4E" Mapping="KEY0" />
+          <F_DS1 nme="SALFC" len="24" mod="1" mnd="0" maj="1" pre="A4F" view="1" Mapping="SALFCY" />
+          <F_DS2 nme="SQHTY" len="24" mod="1" mnd="0" maj="1" pre="A50" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="GESSQH" lbl="Devis" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="DTGEN" add="2" lbl="Date" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SQHNU" add="2" lbl="No devis" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="SALFC" add="2" lbl="Site vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="SALFCY" />
+                <E_KWD nme="SQHTY" add="2" lbl="Type devis" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOCSQH" lbl="Autre document  devis" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="DOCSQH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPCOR" add="2" lbl="Client commande (N°)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCORD" />
+                <E_KWD nme="BPCNA" add="2" lbl="Client commande (nom)" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPCNAM" />
+                <E_KWD nme="DTGEN" add="2" lbl="Date" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SQHNU" add="2" lbl="No devis" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="SALFC" add="2" lbl="Site vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="SALFCY" />
+                <E_KWD nme="SQHTY" add="2" lbl="Type devis" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="V6" lbl="Préparation expéditions" pre="PRH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="PRH-Préparation expéditions" />
+          <F_IDT nme="PRHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="V61" Mapping="KEY0" />
+          <F_DS1 nme="PRHSI" len="24" mod="1" mnd="0" maj="1" pre="V62" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="GESPRH" lbl="Bon de préparation" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESPRH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PRHNU" add="2" lbl="Bon préparation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="DLVDA" add="2" lbl="Date livraison" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLVDAT" />
+                <E_KWD nme="PRHSI" add="2" lbl="Site stockage" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOCPRH" lbl="Autre document bon préparation" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="DOCPRH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PRHNU" add="2" lbl="Bon préparation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="DLVDA" add="2" lbl="Date livraison" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="DLVDAT" />
+                <E_KWD nme="PRHSI" add="2" lbl="Site stockage" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="V8" lbl="Retour" pre="SRH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="SRH-Retour" />
+          <F_IDT nme="SRHNU" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="V81" Mapping="KEY0" />
+          <F_DS1 nme="PNHFC" len="24" mod="1" mnd="0" maj="1" pre="V82" view="1" Mapping="" />
+          <F_DS2 nme="BPSNU" len="24" mod="1" mnd="0" maj="1" pre="V83" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="GESSRL" lbl="Retour prêt" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSRL01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="PNHDT" add="2" lbl="Date retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SRHNU" add="2" lbl="No retour vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PNHFC" add="2" lbl="Site retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="SDHNU" add="2" lbl="No livraison" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+                <E_KWD nme="SHHNU" add="2" lbl="N° expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESSRH" lbl="Retour client" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSRH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="PNHDT" add="2" lbl="Date retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SRHNU" add="2" lbl="No retour vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PNHFC" add="2" lbl="Site retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="SDHNU" add="2" lbl="No livraison" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+                <E_KWD nme="SHHNU" add="2" lbl="N° expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOCSRH" lbl="Autre document retour" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="DOCSRH01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="BPSNU" add="2" lbl="Code Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="PNHDT" add="2" lbl="Date retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="BPSLB" add="2" lbl="Libellé Fournisseur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="SRHNU" add="2" lbl="No retour vente" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PNHFC" add="2" lbl="Site retour" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="SDHNU" add="2" lbl="No livraison" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+                <E_KWD nme="SHHNU" add="2" lbl="N° expédition" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+        <E_FLD nme="V4" lbl="Tarif" pre="SPL" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <F_DS4 val="SPL-Tarif" />
+          <F_IDT nme="PPLCD" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="V41" Mapping="KEY0" />
+          <F_DS1 nme="PPLFT" len="24" mod="1" mnd="0" maj="1" pre="V42" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="DOCSPL" lbl="Autre document tarif" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="DOCSPL01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PPLCD" add="2" lbl="Code tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PPLDD" add="2" lbl="Date début validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDF" add="2" lbl="Date fin validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLFT" add="2" lbl="Fiche tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PPLDC" add="2" lbl="Description" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLPR" add="2" lbl="Prix" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLQT" add="2" lbl="Quantité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESSPL" lbl="Saisie des tarifs" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSPL01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PPLCD" add="2" lbl="Code tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PPLDD" add="2" lbl="Date début validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDF" add="2" lbl="Date fin validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLFT" add="2" lbl="Fiche tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PPLDC" add="2" lbl="Description" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLPR" add="2" lbl="Prix" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLQT" add="2" lbl="Quantité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESSPP" lbl="Catalogue tarifs" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSPP01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PPLCD" add="2" lbl="Code tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PPLDD" add="2" lbl="Date début validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDF" add="2" lbl="Date fin validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLFT" add="2" lbl="Fiche tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PPLDC" add="2" lbl="Description" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLPR" add="2" lbl="Prix" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLQT" add="2" lbl="Quantité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="GESSNE" lbl="Révision tarifs" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="BDB01" cdt="GESSNE01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="PPLCD" add="2" lbl="Code tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="PPLDD" add="2" lbl="Date début validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLDF" add="2" lbl="Date fin validité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLFT" add="2" lbl="Fiche tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PPLDC" add="2" lbl="Description" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLPR" add="2" lbl="Prix" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLQT" add="2" lbl="Quantité" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="PPLST" add="2" lbl="Statut tarif" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+      </L_FLD>
+    </Base>
+    <Base Name="XEPAC_DOC_T2I" Description="Documentation T2i" ver="50100">
+      <Instance Name="T2I01" Description="T2I" Mapping="" Id="01">
+        <Department Name="D01" Description="FR" Mapping="" Id="01" />
+        <Department Name="D02" Description="Departement 1" Mapping="" Id="02" />
+        <Department Name="D03" Description="Departement 2" Mapping="" Id="03" />
+      </Instance>
+      <L_FLD>
+        <E_FLD nme="PR" lbl="Produit" pre="PDT" dpt="0" kwd_sort="0" nosrcdoc="1" affdos="0" propa="1">
+          <F_DS4 val="PDT-Produit" />
+          <F_IDT nme="DOPDT" len="24" val="0" add_mod="1" mod="0" mnd="1" maj="1" pre="A19" Mapping="" />
+          <F_DS1 nme="DODTR" len="24" mod="1" mnd="0" maj="0" pre="A14" view="1" Mapping="" />
+          <F_DS2 nme="DOCHP" len="24" mod="1" mnd="0" maj="1" pre="A1C" view="1" Mapping="" />
+          <L_SUB />
+          <L_TYP>
+            <E_TYP nme="DOPRES" lbl="Présentation / Description" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="DOPRES01" />
+                </D_EDT>
+                <D_EDT nme="PPT" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="2OPRES01" />
+                </D_EDT>
+                <D_EDT nme="WORD" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="0OPRES01" />
+                </D_EDT>
+                <D_EDT nme="EXCEL" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="1OPRES01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="DOCON" add="2" lbl="Connecteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DODTR" add="2" lbl="Date de rédaction" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="DORED" add="2" lbl="Rédacteur" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOSOU" add="2" lbl="Source" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOVER" add="2" lbl="Version du logiciel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCHP" add="2" lbl="Champ d'application Youdoc" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="DOPDT" add="2" lbl="Produit" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="" />
+                <E_KWD nme="DODEX" add="2" lbl="Document d'exploitation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOPUB" add="2" lbl="Publication Client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOPRER" lbl="Prérequis" add="1" ds0="" occ="1" src="1" ver="0" mul="1" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="DOPRER01" />
+                </D_EDT>
+                <D_EDT nme="WORD" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="0OPRER01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="DOCON" add="2" lbl="Connecteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DODTR" add="2" lbl="Date de rédaction" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="DORED" add="2" lbl="Rédacteur" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOSOU" add="2" lbl="Source" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOVER" add="2" lbl="Version du logiciel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCHP" add="2" lbl="Champ d'application Youdoc" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="DOPDT" add="2" lbl="Produit" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="" />
+                <E_KWD nme="DODEX" add="2" lbl="Document d'exploitation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOENV" add="2" lbl="Environnement" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOPUB" add="2" lbl="Publication Client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOINPR" lbl="Procédure d'installation" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="DOINPR01" />
+                </D_EDT>
+                <D_EDT nme="WORD" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="0OINPR01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="DODTR" add="2" lbl="Date de rédaction" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="DORED" add="2" lbl="Rédacteur" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOVER" add="2" lbl="Version du logiciel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCON" add="2" lbl="Connecteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOSOU" add="2" lbl="Source" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCHP" add="2" lbl="Champ d'application Youdoc" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="DOPDT" add="2" lbl="Produit" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="" />
+                <E_KWD nme="DODEX" add="2" lbl="Document d'exploitation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOENV" add="2" lbl="Environnement" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOPUB" add="2" lbl="Publication Client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOADMI" lbl="Administration / Utilisation" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="DOADMI01" />
+                </D_EDT>
+                <D_EDT nme="PPT" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="2OADMI01" />
+                </D_EDT>
+                <D_EDT nme="WORD" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="0OADMI01" />
+                </D_EDT>
+                <D_EDT nme="EXCEL" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="1OADMI01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="DOCON" add="2" lbl="Connecteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="0" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DODTR" add="2" lbl="Date de rédaction" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="DORED" add="2" lbl="Rédacteur" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOSOU" add="2" lbl="Source" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="0" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOVER" add="2" lbl="Version du logiciel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCHP" add="2" lbl="Champ d'application Youdoc" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="0" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="DOPDT" add="2" lbl="Produit" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="0" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="" />
+                <E_KWD nme="DODEX" add="2" lbl="Document d'exploitation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOPUB" add="2" lbl="Publication Client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOTESE" lbl="Doc technique et spécifique" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="DOTESE01" />
+                </D_EDT>
+                <D_EDT nme="WORD" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="0OTESE01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="DOCHP" add="2" lbl="Champ d'application Youdoc" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="DOCON" add="2" lbl="Connecteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DODTR" add="2" lbl="Date de rédaction" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="DODEX" add="2" lbl="Document d'exploitation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOENV" add="2" lbl="Environnement" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOPDT" add="2" lbl="Produit" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="" />
+                <E_KWD nme="DORED" add="2" lbl="Rédacteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOSOU" add="2" lbl="Source" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOVER" add="2" lbl="Version du logiciel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOPUB" add="2" lbl="Publication Client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOEXPR" lbl="Procédure d'exploitation" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="DOEXPR01" />
+                </D_EDT>
+                <D_EDT nme="WORD" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="0OEXPR01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="DODTR" add="2" lbl="Date de rédaction" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="DORED" add="2" lbl="Rédacteur" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOVER" add="2" lbl="Version du logiciel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCON" add="2" lbl="Connecteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOSOU" add="2" lbl="Source" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCHP" add="2" lbl="Champ d'application Youdoc" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="DOPDT" add="2" lbl="Produit" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="" />
+                <E_KWD nme="DODEX" add="2" lbl="Document d'exploitation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOENV" add="2" lbl="Environnement" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOPUB" add="2" lbl="Publication Client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOUTFO" lbl="Support de formation" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="DOUTFO01" />
+                </D_EDT>
+                <D_EDT nme="PPT" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="2OUTFO01" />
+                </D_EDT>
+                <D_EDT nme="WORD" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="0OUTFO01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="DODTR" add="2" lbl="Date de rédaction" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="DORED" add="2" lbl="Rédacteur" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOVER" add="2" lbl="Version du logiciel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCON" add="2" lbl="Connecteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOSOU" add="2" lbl="Source" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCHP" add="2" lbl="Champ d'application Youdoc" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="DOPDT" add="2" lbl="Produit" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="" />
+                <E_KWD nme="DODEX" add="2" lbl="Document d'exploitation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOPUB" add="2" lbl="Publication Client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+            <E_TYP nme="DOWHAT" lbl="What's New" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="1" ref="C">
+              <L_EDT>
+                <D_EDT nme="PDF" action="0" byte="1048576" optimize="0">
+                  <E_VAL nme="T2I01" cdt="DOWHAT01" />
+                </D_EDT>
+              </L_EDT>
+              <L_KWD>
+                <E_KWD nme="DOCON" add="2" lbl="Connecteur" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DODTR" add="2" lbl="Date de rédaction" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="1" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="DORED" add="2" lbl="Rédacteur" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOSOU" add="2" lbl="Source" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOVER" add="2" lbl="Version du logiciel" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOCHP" add="2" lbl="Champ d'application Youdoc" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="1" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="DOPDT" add="2" lbl="Produit" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="1" idx="0" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="" />
+                <E_KWD nme="DODEX" add="2" lbl="Document d'exploitation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="" />
+                <E_KWD nme="DOPUB" add="2" lbl="Publication Client" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="1" idx="0" ass_res="" freq="0" Mapping="" />
+              </L_KWD>
+            </E_TYP>
+          </L_TYP>
+          <L_LNK />
+        </E_FLD>
+      </L_FLD>
+    </Base>
+  </Environment>
+</XEMiiParameterData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XEMiiParameterData>
+  <Environment Name="ENV001" Site="T2I" Description="SAGE" Source="XpertECM" Mode="PAC" Server="YDGLUVA24Q" Mapping="" Service="YDGLUVA24Q">
+    <Base Name="PAC_ACHAT" Description="PAC_ACHAT" ver="54112">
+      <L_FLD>
+		<E_FLD nme="06" lbl="Facture fournisseur" pre="PIH" dpt="0" kwd_sort="0" nosrcdoc="0" affdos="0" propa="0">
+          <L_TYP>
+            <E_TYP nme="GESPIH" lbl="Facture fournisseur" add="1" ds0="" occ="1" src="1" ver="0" mul="0" pub="0" ref="C">
+              <L_KWD>
+                <E_KWD nme="NUMPI" add="2" lbl="Numéro de pièce" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="1" ass_res="" freq="0" val="F_IDT" lval="3-24" Mapping="KEY0" />
+                <E_KWD nme="INVNU" add="2" lbl="Numéro facture" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="INVNUM" />
+                <E_KWD nme="BPRNA" add="2" lbl="Raison sociale" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRNAM" />
+                <E_KWD nme="BPRNU" add="2" lbl="Tiers" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPR" />
+                <E_KWD nme="SITFA" add="2" lbl="Site facturation" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS1" lval="" Mapping="" />
+                <E_KWD nme="PIVTY" add="2" lbl="Type facture fourn." ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS3" lval="" Mapping="" />
+                <E_KWD nme="ACCDA" add="2" lbl="Date comptable" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="ACCDAT" />
+                <E_KWD nme="BPRDA" add="2" lbl="Date origine" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="BPRDAT" />
+                <E_KWD nme="OBJPI" add="2" lbl="Objet de la facture" ope="LIKE" len="40" mnd="0" occ="0" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" val="F_DS2" lval="" Mapping="" />
+                <E_KWD nme="SOHNU" add="2" lbl="No commande" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />
+                <E_KWD nme="PTHNU" add="2" lbl="N° réception" ope="LIKE" len="40" mnd="0" occ="1" src="1" mod="2" maj="1" pub="0" idx="0" ass_res="" freq="0" Mapping="KEY0" />        
