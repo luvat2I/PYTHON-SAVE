@@ -1,0 +1,26 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/PYTHON/YouDoc_Mhtml/TEST/TEMP/basic%20-%20Copie%20-%20Copie%20-%20Copie%20-%20Copie%20-%20Copie.html
+Subject: Test Page
+Date: Wed, 7 Jan 2026 11:43:59 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--IlIBWzl2xoaJCRltGVyxgZlxrtXmIt1Bz1xwDDE3fc----"
+
+
+------MultipartBoundary--IlIBWzl2xoaJCRltGVyxgZlxrtXmIt1Bz1xwDDE3fc----
+Content-Type: text/html
+Content-ID: <frame-941072F038008E65EF4CB901E5D4E472@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/PYTHON/YouDoc_Mhtml/TEST/TEMP/basic%20-%20Copie%20-%20Copie%20-%20Copie%20-%20Copie%20-%20Copie.html
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3Dwindows-1252">
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+
+
+</body></html>
+------MultipartBoundary--IlIBWzl2xoaJCRltGVyxgZlxrtXmIt1Bz1xwDDE3fc------
